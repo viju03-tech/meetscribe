@@ -1,0 +1,25 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+sqlalchemy==2.0.36
+pydantic==2.10.4
+email-validator==2.2.0
+pydantic-settings==2.7.0
+python-multipart==0.0.20
+PyJWT==2.10.1
+bcrypt==4.1.2
+slowapi==0.1.9
+httpx==0.28.1
+reportlab==4.2.5
+alembic==1.14.0
+psycopg[binary]==3.2.4
+redis==5.2.1
+celery==5.4.0
+python-dotenv==1.0.1
+pytest==8.3.4
+pytest-asyncio==0.25.0
+# Optional: faster-whisper is NOT required to install or run the app.
+# Install it separately if you want real local transcription:
+#   pip install faster-whisper==1.1.0
+# Without it, transcription raises a clear error and the transcript-import
+# path (POST /api/v1/meetings/{id}/transcript/import) is the supported way
+# to get a usable transcript.
