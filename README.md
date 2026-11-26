@@ -135,3 +135,4 @@ Not implemented / not tested in Part 1:
 - Chunked/streaming live transcription (MediaRecorder uploads the finished file).
 - Workspaces / team sharing, DOCX export, WebSocket job events (polling instead).
 - No end-to-end browser test of the frontend; `next build` was run (see report).
+Live demo: https://viju03-tech.github.io/meetscribe/
